@@ -1,0 +1,18 @@
+{
+	"name": "lab4computmath",
+	"authors": [
+		"Nadezhda",
+		"Evgeniy"
+	],
+	"description": "см. task.png",
+	"dependencies": {
+        "ggplotd": ">=0.4.5"
+	},
+    "subConfigurations": {
+		"ggplotd": "ggplotd-gtk"
+	},
+
+	"sourcePaths": ["src"],
+	"targetPath": "bin",
+	"targetType": "executable"
+}
